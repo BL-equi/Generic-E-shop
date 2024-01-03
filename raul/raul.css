@@ -1,6 +1,8 @@
 body, html {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
 }
 #shopheader {
 
@@ -19,26 +21,24 @@ header h1 {
 }
 #imagelist {
     height: 100%;
-    width: 35%;
+    width: 40%;
     display: inline-block;
-    margin: auto;
+    margin: 10 0 0 0;
 }
 .imageproduct{
   
-  width:100px;
-  height:100px;
+  width:150px;
+  height:150px;
 }
-img#prod1 {
-    margin-right: 40px;
-}
+
 ul {
   list-style-type: none;
   float: left;
 }
 #trocarimg {
-  margin: 15px;
-  height: 308px;
-  width: 250px;
+  margin: 15 0 0 0%;
+  height: 300px;
+  width: 50%;
 }
 #info {
     height: 100%;
