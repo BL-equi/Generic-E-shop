@@ -22,13 +22,15 @@ header h1 {
 #imagelist {
     height: 100%;
     width: 40%;
-    display: inline-block;
-    margin: 10 0 0 0;
+    display: flex;
+    margin-top: 1%;
+
 }
 .imageproduct{
   
-  width:150px;
+  max-width:150px;
   height:150px;
+  margin-right: 1%;
 }
 
 ul {
@@ -36,15 +38,15 @@ ul {
   float: left;
 }
 #trocarimg {
-  margin: 15 0 0 0%;
+  margin-left: 2%;
   height: 300px;
-  width: 50%;
+  max-width: 50%;
 }
 #info {
     height: 100%;
     width: 50%;
     display: inline-block;
-    margin-left: 20px;
+    margin: 2%
 }
 #compra {
     border-top: solid 2px rgba(0,0,0, 0.1);
